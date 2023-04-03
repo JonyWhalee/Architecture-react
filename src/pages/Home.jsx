@@ -1,6 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import Nav from '../components/layout/Nav' 
+import '../style/Home.css'
 
 const Home = () =>{
  return(
@@ -25,7 +26,7 @@ const Home = () =>{
         <SwiperSlide>
             <div className="swiper-slide">
                 <div className="seg2 sections">
-                    <div className="section_container"><div class="image">
+                    <div className="section_container"><div className="image">
                         <img src="https://www.arquitecturaydiseno.es/medio/2020/11/16/arquitecto-jonas-bjerre-poulsen-libro-reinvention-of-forms-esfera-1_73bc45d3_1200x630.jpg" alt="" />
                     </div>
                     <div className="text">
@@ -68,17 +69,17 @@ const Home = () =>{
         </div>
         
         
-        <div class="swiper-pagination"></div>
+        <div className="swiper-pagination"></div>
 
         <Nav></Nav>
 
         </Swiper>
         <main>
-            <section class="container-icons">
+            <section className="container-icons">
                 <div>
-                    <i class="fa-solid fa-pen-ruler"></i>
-                    <i class="fa-solid fa-pencil"></i>
-                    <i class="fa-solid fa-person-digging"></i>
+                    <i className="fa-solid fa-pen-ruler"></i>
+                    <i className="fa-solid fa-pencil"></i>
+                    <i className="fa-solid fa-person-digging"></i>
                 </div>
                 <div>
                     <article>
@@ -86,7 +87,7 @@ const Home = () =>{
                     </article>
                 </div>
             </section>
-            <section class="title-home">
+            <section className="title-home">
                 <h2>Intelligent</h2>
                 <h1>Architecture</h1>
             </section>
