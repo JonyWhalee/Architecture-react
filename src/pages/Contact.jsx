@@ -1,10 +1,10 @@
-import Nav from '../components/layout/Nav' 
+import NavBar from '../components/layout/Nav'
 import '../style/Contact.css'
 
 const Contact = () =>{
  return(
   <>
-   <Nav></Nav>
+   <NavBar></NavBar>
     <div className="container-contact">
       <div className="contact-box">
           <div className="left"></div>

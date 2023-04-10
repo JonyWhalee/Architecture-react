@@ -1,12 +1,11 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import Nav from '../components/layout/Nav' 
+import NavBarHome from '../components/layout/NavHome' 
 import '../style/Home.css'
 
 const Home = () =>{
  return(
     <>
-
         <Swiper spaceBetween={50} slidesPerView={1} className="swiper-container">
         <div className="swiper-wrapper">
         <SwiperSlide>
@@ -71,7 +70,7 @@ const Home = () =>{
         
         <div className="swiper-pagination"></div>
 
-        <Nav></Nav>
+        <NavBarHome></NavBarHome>
 
         </Swiper>
         <main>

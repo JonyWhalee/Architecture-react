@@ -1,4 +1,4 @@
-import Nav from '../components/layout/Nav' 
+import NavBar from '../components/layout/Nav'
 import Contador from'../js/Index'
 import '../style/About.css'
 import '../js/Index.js'
@@ -6,7 +6,7 @@ import '../js/Index.js'
 const About = () =>{
  return(
   <>
-    <Nav></Nav>
+    <NavBar></NavBar>
     <Contador></Contador>
       <main>
         <section className="container-about">

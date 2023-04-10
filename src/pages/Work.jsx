@@ -1,10 +1,10 @@
-import Nav from '../components/layout/Nav' 
+import NavBar from '../components/layout/Nav' 
 import '../style/Work.css'
 
 const Work = () =>{
  return(
    <>
-   <Nav></Nav>
+   <NavBar></NavBar>
    <main className="body-work" >
    <div className="container-a">
      <div className="container">

@@ -1,4 +1,4 @@
-import './style/App.css';
+import './style/Layout.css';
 
 import {
   BrowserRouter,
@@ -6,7 +6,6 @@ import {
   Route
 } from 'react-router-dom';
 
-import Header from './components/layout/Header';
 import Footer from './components/layout/Footer'
 
 import Home from './pages/Home'
@@ -18,10 +17,7 @@ import Contact from './pages/Contact'
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-
       <BrowserRouter>
-      
       <Routes>
         <Route path='/' element={<Home></Home>} ></Route>
         <Route path='/work' element={<Work></Work>} ></Route>

@@ -1,9 +1,8 @@
 import React, {useState} from 'react';
 import { NavLink } from 'react-router-dom'
 import BurgerNav from './BurgerNav';
-import '../../style/Navbar.css'
 
-const NavBar = (props) =>{
+const NavBarHome = (props) =>{
   const [clicked , setClicked] = useState(false)
   const handleClick = ()=>{
   // Cuando esta en true lo pasa a false
@@ -11,9 +10,9 @@ const NavBar = (props) =>{
   }
  return(
   <>
-   <div className="nav-container">
+   <div className="nav-container-home">
         <i className="fa-solid fa-compass-drafting"></i>
-        <ul className={`links ${clicked ? 'activee': ''}`}>
+        <ul className={`links-home ${clicked ? 'activee': ''}`}>
           <li><NavLink className={({ isActive }) => isActive ? "active": undefined} to="/">home</NavLink></li>
           <li><NavLink className={({ isActive }) => isActive ? "active": undefined} to="/work">work</NavLink></li>
           <li><NavLink className={({ isActive }) => isActive ? "active": undefined} to="/about">about</NavLink></li>
@@ -27,4 +26,4 @@ const NavBar = (props) =>{
  );
 }
 
-export default NavBar;
+export default NavBarHome;
